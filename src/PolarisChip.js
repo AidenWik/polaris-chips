@@ -3,7 +3,7 @@ import { LitElement, html, css } from 'lit';
 export class PolarisChip extends LitElement {
   static get properties() {
     return {
-      title: { type: String },
+      name: { type: String },
     };
   }
 
@@ -25,10 +25,10 @@ export class PolarisChip extends LitElement {
 
   constructor() {
     super();
-    this.title = 'My boilerplate';
+    this.name = 'My boilerplate';
   }
 
   render() {
-    return html`<span>${this.title}</span>`;
+    return html`<span>${this.name}</span>`;
   }
 }
