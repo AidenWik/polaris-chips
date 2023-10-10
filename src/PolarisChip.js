@@ -15,7 +15,8 @@ export class PolarisChip extends LitElement {
         display: inline-block;
         margin: 0 12px 12px 0;
       }
-
+      
+      .link:focus,
       .link:hover,
       :host{[active]} .link {
         background-color: #e4e5e7;
