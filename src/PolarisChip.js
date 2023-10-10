@@ -17,7 +17,7 @@ export class PolarisChip extends LitElement {
       }
       :host{[active]} .link {
         background-color: #444;
-        color: #fff;
+        color: #003;
       }
 
       .link {
