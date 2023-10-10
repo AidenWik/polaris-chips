@@ -30,6 +30,6 @@ export class PolarisChip extends LitElement {
   }
 
   render() {
-    return html`<a class="link"><slot>${this.name}</slot></a>`;
+    return html`<a class="link" href="${this.link}"><slot>${this.name}</slot></a>`;
   }
 }
