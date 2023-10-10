@@ -29,6 +29,6 @@ export class PolarisChip extends LitElement {
   }
 
   render() {
-    return html`<span>${this.name}<slot></slot></span>`;
+    return html`<span><slot>${this.name}</slot></span>`;
   }
 }
