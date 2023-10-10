@@ -16,8 +16,11 @@ export class PolarisChip extends LitElement {
         margin: 0 12px 12px 0;
       }
       :host{[active]} .link {
-        background-color: #444;
-        color: #003;
+        background-color: #e4e5e7;
+        border: 2px solid #e4e5e7;
+        border-radius: 2px;
+        color: #005fa9;
+        cursor: pointer;
       }
 
       .link {
