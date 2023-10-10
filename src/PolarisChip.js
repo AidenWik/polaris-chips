@@ -14,7 +14,7 @@ export class PolarisChip extends LitElement {
         margin: 0 12px 12px 0;
       }
 
-      span {
+      .link {
         padding: 8px 4px;
         border: 2px solid #444;
         color: #444;
@@ -26,9 +26,10 @@ export class PolarisChip extends LitElement {
   constructor() {
     super();
     this.name = 'My boilerplate';
+    this.link = "https://www.psu.edu/news/research/";
   }
 
   render() {
-    return html`<span><slot>${this.name}</slot></span>`;
+    return html`<a class="link"><slot>${this.name}</slot></a>`;
   }
 }
