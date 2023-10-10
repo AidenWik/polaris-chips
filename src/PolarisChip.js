@@ -4,6 +4,8 @@ export class PolarisChip extends LitElement {
   static get properties() {
     return {
       name: { type: String },
+      link: { type: String },
+      
     };
   }
 
