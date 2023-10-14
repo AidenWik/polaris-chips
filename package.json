@@ -17,9 +17,6 @@
   "dependencies": {
     "lit": "^2.0.2"
   },
-  "scripts": {
-    "build": "[my-framework] build --output public"
-  },
   "devDependencies": {
     "@babel/preset-env": "^7.16.4",
     "@custom-elements-manifest/analyzer": "^0.4.17",
